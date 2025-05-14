@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Belediye Organizasyon Şeması</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="org-container">
+        <div class="background-image"></div>
+        <div class="org-container-inner">
+            <div class="header text-center">
+                <div class="logo-container mb-2">
+                    <img src="image/ibb-logo-02.png" alt="İBB Logo" class="logo-img">
+                </div>
+                <h4>İSTANBUL BÜYÜKŞEHİR BELEDİYESİ</h4>
+                <h1>GSY-3 GSY-4</h1>
+                <h4>ORGANİZASYON ŞEMASI</h4>                
+            </div>
+
+            <div class="searchbox">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    <input type="text" class="form-control" id="searchInput" placeholder="Birim veya personel ara...">
+                    <button class="btn btn-outline-light" type="button" id="clearSearch">Temizle</button>
+                </div>
+            </div>
+
+            <div class="badge-container mb-3">
+                <span class="badge bg-primary">GSY</span>
+                <span class="badge bg-info">Daire Başkanlığı</span>
+                <span class="badge bg-light text-primary">Şube Müdürlüğü</span>
+            </div>
+
+            <div id="orgTree">
+                <!-- Organizasyon ağacı burada JavaScript ile oluşturulacak -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Müdür Modal -->
+    <div class="modal fade" id="mudurModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mudurModalTitle">Birim Bilgileri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-header bg-light">
+                            <h5 id="modalBirimAdi" class="mb-0"></h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="person-info mb-3">
+                                <h6 class="card-subtitle mb-2">Müdür:</h6>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="avatar-circle">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <h5 id="modalMudurAdi" class="mb-1"></h5>
+                                        <p id="modalPozisyon" class="text-muted mb-0"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h6 class="card-subtitle mb-2">İletişim Bilgileri:</h6>
+                                <p class="mb-2">
+                                    <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                                    <span id="modalTelefon"></span>
+                                </p>
+                                <p class="mb-0">
+                                    <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                                    <span id="modalEmail"></span>
+                                </p>
+                            </div>
+                            <div class="mt-4">
+                                <h6 class="card-subtitle mb-2">Müdür Yardımcıları:</h6>
+                                <div class="list-group">
+                                    <div class="list-group-item">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h6 class="mb-1">Leyla Acar</h6>
+                                            <small>Müdür Yardımcısı</small>
+                                        </div>
+                                        <small class="text-muted">0212 555 9001</small>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h6 class="mb-1">Oğuz Taner</h6>
+                                            <small>Müdür Yardımcısı</small>
+                                        </div>
+                                        <small class="text-muted">0212 555 9002</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>

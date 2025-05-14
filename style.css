@@ -1,0 +1,365 @@
+/* Ana stil tanımlamaları */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    background: #003D84;
+    color: white;
+    padding: 20px;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.org-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #003D84;
+    min-height: 100vh;
+    color: white;
+}
+
+.org-container-inner {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Logo stili */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+    filter: brightness(0) invert(1); /* Makes the logo white */
+}
+
+
+.header h1 {
+    font-size:25pt;
+    font-weight:750;
+}
+
+.header h4 {
+    font-size:15pt;
+    font-weight:500;
+}
+
+.background-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%; /* Takes up 35% of the width horizontally */
+    height: 0;
+    padding-bottom: 45%; /* Makes height proportional to width (1:1 ratio) */
+    background-image: url('image/siluet-02.png'); /* Replace with your image path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    opacity: 0.3; /* Semi-transparent so it doesn't interfere with content */
+    z-index: 0; /* Stays behind other content */
+    pointer-events: none; /* Prevents the image from being clickable */
+}
+
+/* Organizasyon elemanları */
+.org-item {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background-color: transparent;
+}
+
+.org-item:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+
+.org-header {
+    padding: 12px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.org-header .title {
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+/* Farklı seviyeler için yazı boyutları */
+.org-level-1 .title {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.org-level-2 .title {
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.org-level-3 .title {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.org-level-4 .title {
+    font-size: 0.8rem;
+}
+
+.org-content {
+    padding: 0;
+    display: none;
+}
+
+/* Seviye renkleri */
+.org-level-1 {
+    background-color: #3F95EA;
+    color: white;
+}
+
+.org-level-2 {
+    background-color: #79afe6; /* Changed to a teal/cyan color to be more distinct */
+    color: #012852; 
+    padding-left: 20px;
+}
+
+.org-level-3 {
+    background-color: #cfe2ff;
+    color: #012e5e;
+    padding-left: 40px;
+}
+
+.org-level-4 {
+    background-color: #f1f8ff;
+    color: #003D84;
+    padding-left: 60px;
+}
+
+/* İkon ve ilave elemanlar */
+.icon-container {
+    width: 24px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* Chevron ikon için stil */
+.fa-chevron-down {
+    transition: transform 0.3s;
+}
+
+.person-info {
+    padding: 15px;
+    border-left: 3px solid #003D84;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.person-name {
+    font-weight: bold;
+    color: #003D84;
+}
+
+.person-title {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.person-contact {
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.searchbox {
+    margin-bottom: 20px;
+}
+
+.badge-container {
+    display: flex;
+    gap: 5px;
+}
+
+/* Modal stili */
+.modal-header {
+    background: #003D84;
+    color: white;
+}
+
+.modal-title {
+    font-weight: 600;
+}
+
+.contact-icon {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+    color: #003D84;
+}
+
+.avatar-circle {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    background-color: #003D84; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+    margin-right: 15px;
+}
+
+/* Yeni eklenen stil: Daire başkanı ikonu için */
+.manager-icon-container {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.manager-icon-container:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.org-level-1 .manager-icon-container {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.org-level-2 .manager-icon-container {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.org-level-3 .manager-icon-container {
+    color: #003D84;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Animasyon efektleri */
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Açılır-kapanır içeriğin görünürlüğünü yönet */
+.show {
+    display: block;
+}
+
+/* Açılır-kapanır menülerde ikon değişimi */
+.org-header[aria-expanded="true"] .fa-chevron-down {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+}
+
+.org-header[aria-expanded="false"] .fa-chevron-down {
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}
+
+/* iPhone 16 için uyumluluğu */
+@media (max-width: 430px) {
+    .logo-img {
+        width: 60px;
+        height: auto;
+    }
+    
+    .org-header {
+        padding: 10px;
+    }
+    
+    /* Mobil cihazlar için farklı seviyelerin yazı boyutları */
+    .org-level-1 .title {
+        font-size: 0.95rem;
+    }
+    
+    .org-level-2 .title {
+        font-size: 0.85rem;
+    }
+    
+    .org-level-3 .title {
+        font-size: 0.75rem;
+    }
+    
+    .org-level-4 .title {
+        font-size: 0.7rem;
+    }
+    
+    .org-level-2 {
+        padding-left: 15px;
+    }
+    
+    .org-level-3 {
+        padding-left: 25px;
+    }
+    
+    .org-level-4 {
+        padding-left: 35px;
+    }
+    
+    .icon-container {
+        width: 18px;
+        margin-right: 5px;
+    }
+    
+    .manager-icon-container {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .person-info {
+        padding: 10px;
+    }
+    
+    .action-buttons button {
+        padding: 1px 4px;
+        font-size: 10px;
+    }
+    
+    .searchbox .input-group {
+        flex-wrap: nowrap;
+    }
+    
+    .searchbox input {
+        font-size: 0.9em;
+    }
+    
+    .header h1 {
+        font-size: 1.2rem;
+    }
+    
+    .header p {
+        font-size: 0.8rem;
+    }
+    
+    .badge-container .badge {
+        font-size: 0.7em;
+    }
+}
