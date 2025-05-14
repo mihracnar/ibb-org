@@ -78,15 +78,15 @@ body {
 /* Organizasyon elemanları */
 .org-item {
     margin-bottom: 10px;
-    border-radius: 6px;
+    border-radius: 15px;
     overflow: hidden;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.1s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0);
     background-color: transparent;
 }
 
 .org-item:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
     transform: translateY(-2px);
 }
 
@@ -96,6 +96,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Tüm level'lar için varsayılan margin'i koruyalım */
+.org-item {
+    margin-bottom: 5px;
+}
+
+/* Level 1 içindeki içerik kısmına da padding ekleyelim */
+#orgTree > .org-item > .org-content {
+    padding-top: 5px;
+}
+
+
+/* Content içindeki ilk level 2 öğesine ekstra üst margin */
+.org-content > .org-item:first-child {
+    margin-top: 5px;
 }
 
 .org-header .title {
@@ -287,7 +303,7 @@ body {
 /* iPhone 16 için uyumluluğu */
 @media (max-width: 430px) {
     .logo-img {
-        width: 60px;
+        width: 100px;
         height: auto;
     }
     
@@ -352,7 +368,13 @@ body {
     }
     
     .header h1 {
-        font-size: 1.2rem;
+    font-size:18pt;
+    font-weight:750;
+    }
+
+    .header h4 {
+        font-size:10pt;
+        font-weight:500;
     }
     
     .header p {
