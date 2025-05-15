@@ -1,409 +1,368 @@
-// Organizasyon verilerini tanımla
-const organizationData = [
-    {
-        id: "gsy3",
-        title: "GENEL SEKRETER YARDIMCILIĞI-3",
-        icon: "fa-sitemap",
-        children: [
-            {
-                id: "kultur-daire",
-                title: "KÜLTÜR DAİRESİ BAŞKANLIĞI",
-                icon: "fa-landmark",
-                manager: {
-                    name: "Özgür Ceylan",
-                    position: "Daire Başkanı",
-                    phone: "0212 555 1100",
-                    email: "ozgur.ceylan@belediye.gov.tr"
-                },
-                children: [
-                    {
-                        id: "kulturel-etkinlikler",
-                        title: "KÜLTÜREL ETKİNLİKLER ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-theater-masks",
-                        manager: {
-                            name: "Ahmet Yılmaz",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 1111",
-                            email: "ahmet.yilmaz@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "orkestralar",
-                        title: "ORKESTRALAR ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-music",
-                        manager: {
-                            name: "Ayşe Kaya",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 1112",
-                            email: "ayse.kaya@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "sehir-tiyatro",
-                        title: "ŞEHİR TİYATROLARI ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-masks-theater",
-                        manager: {
-                            name: "Mehmet Demir",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 1113",
-                            email: "mehmet.demir@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "turizm",
-                        title: "TURİZM ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-plane",
-                        manager: {
-                            name: "Zeynep Yıldız",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 1114",
-                            email: "zeynep.yildiz@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "dini-kurumlar",
-                        title: "DİNİ KURUM VE TOPLULUKLARLA İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-place-of-worship",
-                        manager: {
-                            name: "Ali Öztürk",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 1115",
-                            email: "ali.ozturk@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "stk-iliskileri",
-                        title: "SİVİL TOPLUM KURULUŞLARI İLİŞKİLERİ ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-people-group",
-                        manager: {
-                            name: "Fatma Şahin",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 1116",
-                            email: "fatma.sahin@belediye.gov.tr"
-                        }
-                    }
-                ]
-            },
-            {
-                id: "kultur-varliklari",
-                title: "KÜLTÜR VARLIKLARI DAİRESİ BAŞKANLIĞI",
-                icon: "fa-monument",
-                manager: {
-                    name: "Bahar Erdem",
-                    position: "Daire Başkanı",
-                    phone: "0212 555 2100",
-                    email: "bahar.erdem@belediye.gov.tr"
-                },
-                children: [
-                    {
-                        id: "koruma-uygulama",
-                        title: "KORUMA UYGULAMA VE DENETİM ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-shield-alt",
-                        manager: {
-                            name: "Mustafa Yılmaz",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 2111",
-                            email: "mustafa.yilmaz@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "kultur-projeler",
-                        title: "KÜLTÜR VARLIKLARI PROJELER ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-drafting-compass",
-                        manager: {
-                            name: "Hatice Çelik",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 2112",
-                            email: "hatice.celik@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "kulturel-miras",
-                        title: "KÜLTÜREL MİRAS KORUMA ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-archway",
-                        manager: {
-                            name: "Kemal Turgut",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 2113",
-                            email: "kemal.turgut@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "kutuphane-muze",
-                        title: "KÜTÜPHANE VE MÜZELER ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-book",
-                        manager: {
-                            name: "Elif Korkmaz",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 2114",
-                            email: "elif.korkmaz@belediye.gov.tr"
-                        }
-                    }
-                ]
-            },
-            {
-                id: "sosyal-hizmetler",
-                title: "SOSYAL HİZMETLER DAİRESİ BAŞKANLIĞI",
-                icon: "fa-hands-helping",
-                manager: {
-                    name: "Murat Akgün",
-                    position: "Daire Başkanı",
-                    phone: "0212 555 3100",
-                    email: "murat.akgun@belediye.gov.tr"
-                },
-                children: [
-                    {
-                        id: "kadin-aile",
-                        title: "KADIN VE AİLE HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-female",
-                        manager: {
-                            name: "Sevgi Kılıç",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 3111",
-                            email: "sevgi.kilic@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "sosyal-hizmet",
-                        title: "SOSYAL HİZMETLER ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-hand-holding-heart",
-                        manager: {
-                            name: "Emre Arslan",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 3112",
-                            email: "emre.arslan@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "cocuk-hizmetler",
-                        title: "ÇOCUK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-child",
-                        manager: {
-                            name: "Sema Özkan",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 3113",
-                            email: "sema.ozkan@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "engelli-hizmetleri",
-                        title: "ENGELLİ HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-wheelchair",
-                        manager: {
-                            name: "Orhan Gül",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 3114",
-                            email: "orhan.gul@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "sehit-gazi",
-                        title: "ŞEHİT YAKINLARI VE GAZİLERLE İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-flag",
-                        manager: {
-                            name: "Hüseyin Doğan",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 3115",
-                            email: "huseyin.dogan@belediye.gov.tr"
-                        }
-                    }
-                ]
-            },
-            {
-                id: "muhtarlik-isleri",
-                title: "MUHTARLIK İŞLERİ DAİRESİ BAŞKANLIĞI",
-                icon: "fa-building-user",
-                manager: {
-                    name: "Ayşe Temel",
-                    position: "Daire Başkanı",
-                    phone: "0212 555 4100",
-                    email: "ayse.temel@belediye.gov.tr"
-                },
-                children: [
-                    {
-                        id: "avrupa-muhtarlik",
-                        title: "AVRUPA YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-map-marked-alt",
-                        manager: {
-                            name: "Selim Aydın",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 4111",
-                            email: "selim.aydin@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "muhtarlik-destek",
-                        title: "MUHTARLIKLAR DESTEK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-handshake-angle",
-                        manager: {
-                            name: "Canan Şimşek",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 4112",
-                            email: "canan.simsek@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "anadolu-muhtarlik",
-                        title: "ANADOLU YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-map-marked",
-                        manager: {
-                            name: "İbrahim Yıldırım",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 4113",
-                            email: "ibrahim.yildirim@belediye.gov.tr"
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: "gsy4",
-        title: "GENEL SEKRETER YARDIMCILIĞI-4",
-        icon: "fa-sitemap",
-        children: [
-            {
-                id: "bogazici-imar",
-                title: "BOĞAZİÇİ İMAR ŞUBE MÜDÜRLÜĞÜ",
-                icon: "fa-bridge-water",
-                manager: {
-                    name: "Tolga Keskin",
-                    position: "Şube Müdürü",
-                    phone: "0212 555 5111",
-                    email: "tolga.keskin@belediye.gov.tr"
-                }
-            },
-            {
-                id: "deprem-risk",
-                title: "DEPREM RİSK YÖNETİMİ VE KENTSEL İYİLEŞTİRME DAİRESİ BAŞKANLIĞI",
-                icon: "fa-house-crack",
-                manager: {
-                    name: "Serdar Yıldız",
-                    position: "Daire Başkanı",
-                    phone: "0212 555 6100",
-                    email: "serdar.yildiz@belediye.gov.tr"
-                },
-                children: [
-                    {
-                        id: "deprem-zemin",
-                        title: "DEPREM VE ZEMİN İNCELEME ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-microscope",
-                        manager: {
-                            name: "Metin Coşkun",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 6111",
-                            email: "metin.coskun@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "kentsel-donusum-uygulama",
-                        title: "KENTSEL DÖNÜŞÜM UYGULAMA ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-city",
-                        manager: {
-                            name: "Banu Yücel",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 6112",
-                            email: "banu.yucel@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "kentsel-donusum-planlama",
-                        title: "KENTSEL DÖNÜŞÜM PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-compass-drafting",
-                        manager: {
-                            name: "Hakan Tekin",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 6113",
-                            email: "hakan.tekin@belediye.gov.tr"
-                        }
-                    }
-                ]
-            },
-            {
-                id: "imar-sehircilik",
-                title: "İMAR VE ŞEHİRCİLİK DAİRESİ BAŞKANLIĞI",
-                icon: "fa-building",
-                manager: {
-                    name: "Cengiz Toprak",
-                    position: "Daire Başkanı",
-                    phone: "0212 555 7100",
-                    email: "cengiz.toprak@belediye.gov.tr"
-                },
-                children: [
-                    {
-                        id: "harita",
-                        title: "HARİTA ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-map",
-                        manager: {
-                            name: "Serkan Özdemir",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 7111",
-                            email: "serkan.ozdemir@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "imar",
-                        title: "İMAR ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-drafting-compass",
-                        manager: {
-                            name: "Nil Yaman",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 7112",
-                            email: "nil.yaman@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "planlama",
-                        title: "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-layer-group",
-                        manager: {
-                            name: "Cem Kaya",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 7113",
-                            email: "cem.kaya@belediye.gov.tr"
-                        }
-                    },
-                    {
-                        id: "sehir-planlama",
-                        title: "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
-                        icon: "fa-city",
-                        manager: {
-                            name: "Derya Ergin",
-                            position: "Şube Müdürü",
-                            phone: "0212 555 7114",
-                            email: "derya.ergin@belediye.gov.tr"
-                        }
-                    }
-                ]
-            }
-        ]
-    }
-];
+// Temel veri yapıları
+let managerData = []; // Yönetici bilgileri
+let structureData = []; // Müdürlük hiyerarşi bilgileri 
+let organizationData = []; // Oluşturulacak organizasyon ağacı
 
-// Organizasyon ağacını oluştur
-document.addEventListener('DOMContentLoaded', function() {
-    // Organizasyon verilerini alıp ağacı oluştur
-    buildOrganizationTree(organizationData);
+// Organizasyon ilişki haritaları
+let unitParentMap = {}; // Birim -> Üst birim eşlemesi
+let unitLevelMap = {}; // Birim -> Seviye eşlemesi (1: GSY, 2: Daire, 3: Müdürlük)
+let gsyDaireMap = {}; // GSY -> Daireler listesi
+let daireMudurlukMap = {}; // Daire -> Müdürlükler listesi
+
+// Birim ikonları - ID'ye göre
+const unitIcons = {
+    // GSY Seviyesi
+    "gsy3": "fa-sitemap",
+    "gsy4": "fa-sitemap",
     
-    // Modal işlemleri
-    setupModalHandlers();
+    // Daire Başkanlıkları
+    "kultur-daire": "fa-landmark",
+    "kultur-varliklari": "fa-monument",
+    "sosyal-hizmetler": "fa-hands-helping",
+    "muhtarlik-isleri": "fa-building-user",
+    "deprem-risk": "fa-house-crack",
+    "imar-sehircilik": "fa-building",
     
-    // Arama işlemleri
-    setupSearchHandlers();
+    // Müdürlükler
+    "kulturel-etkinlikler": "fa-theater-masks",
+    "orkestralar": "fa-music",
+    "sehir-tiyatro": "fa-masks-theater",
+    "turizm": "fa-plane",
+    "dini-kurumlar": "fa-place-of-worship",
+    "stk-iliskileri": "fa-people-group",
+    "koruma-uygulama": "fa-shield-alt",
+    "kultur-projeler": "fa-drafting-compass",
+    "kulturel-miras": "fa-archway",
+    "kutuphane-muze": "fa-book",
+    "kadin-aile": "fa-female",
+    "sosyal-hizmet": "fa-hand-holding-heart",
+    "cocuk-hizmetler": "fa-child",
+    "engelli-hizmetleri": "fa-wheelchair",
+    "sehit-gazi": "fa-flag",
+    "avrupa-muhtarlik": "fa-map-marked-alt",
+    "muhtarlik-destek": "fa-handshake-angle",
+    "anadolu-muhtarlik": "fa-map-marked",
+    "bogazici-imar": "fa-bridge-water",
+    "deprem-zemin": "fa-microscope",
+    "kentsel-donusum-uygulama": "fa-city",
+    "kentsel-donusum-planlama": "fa-compass-drafting",
+    "harita": "fa-map",
+    "imar": "fa-drafting-compass",
+    "planlama": "fa-layer-group",
+    "sehir-planlama": "fa-city"
+};
+
+// Sayfa yüklendiğinde çalışacak ana fonksiyon
+document.addEventListener('DOMContentLoaded', async function() {
+    try {
+        // Yönetici verilerini yükle
+        await loadManagerData();
+        
+        // Müdürlük yapı verilerini yükle
+        await loadStructureData();
+        
+        // Organizasyon verilerini oluştur
+        buildOrganizationData();
+        
+        // Organizasyon ilişki haritasını oluştur
+        buildOrganizationMap();
+        
+        // Organizasyon ağacını oluştur
+        buildOrganizationTree(organizationData);
+        
+        // Modal işlemleri
+        setupModalHandlers();
+        
+        // Arama işlemleri
+        setupSearchHandlers();
+    } catch (error) {
+        console.error("Sayfa yüklenirken bir hata oluştu:", error);
+    }
 });
+
+// Yönetici verilerini yükleyen fonksiyon
+async function loadManagerData() {
+    try {
+        const response = await fetch('data/yonetici-listesi.json');
+        if (!response.ok) {
+            throw new Error(`HTTP hata! Durum: ${response.status}`);
+        }
+        managerData = await response.json();
+        console.log("Yönetici verileri başarıyla yüklendi:", managerData);
+    } catch (error) {
+        console.error("Yönetici verileri yüklenirken bir hata oluştu:", error);
+        // Hata durumunda boş dizi kullanalım
+        managerData = [];
+    }
+}
+
+// Müdürlük yapı verilerini yükleyen fonksiyon
+async function loadStructureData() {
+    try {
+        const response = await fetch('data/mudurluk-listesi.json');
+        if (!response.ok) {
+            throw new Error(`HTTP hata! Durum: ${response.status}`);
+        }
+        structureData = await response.json();
+        console.log("Yapı verileri başarıyla yüklendi:", structureData);
+    } catch (error) {
+        console.error("Yapı verileri yüklenirken bir hata oluştu:", error);
+        // Hata durumunda boş dizi kullanalım
+        structureData = [];
+    }
+}
+
+// Müdürlük yapı verilerinden organizasyon verilerini oluşturan fonksiyon
+function buildOrganizationData() {
+    // Önce GSY'leri belirle
+    const gsyList = [...new Set(structureData.map(item => item["gsy-id"]))].filter(Boolean);
+    
+    organizationData = gsyList.map(gsyId => {
+        // GSY'ye ait birim adını bul
+        const gsyName = getBirimAdi(gsyId);
+        
+        // GSY altındaki daireleri bul
+        const daireList = [...new Set(
+            structureData
+                .filter(item => item["gsy-id"] === gsyId && item["daire-id"])
+                .map(item => item["daire-id"])
+        )].filter(Boolean);
+        
+        // GSY altındaki direkt müdürlükleri bul (dairesiz)
+        const directMudurlukList = structureData
+            .filter(item => item["gsy-id"] === gsyId && !item["daire-id"] && item["mudurluk-id"])
+            .map(item => item["mudurluk-id"]);
+        
+        // GSY objesini oluştur
+        const gsyObj = {
+            id: gsyId,
+            title: gsyName || gsyId.toUpperCase(),
+            icon: unitIcons[gsyId] || "fa-sitemap",
+            children: []
+        };
+        
+        // Daireleri ekle
+        daireList.forEach(daireId => {
+            // Daire adını bul
+            const daireName = getBirimAdi(daireId);
+            
+            // Daire altındaki müdürlükleri bul
+            const mudurlukList = structureData
+                .filter(item => item["daire-id"] === daireId && item["mudurluk-id"])
+                .map(item => item["mudurluk-id"]);
+                
+            // Daire objesini oluştur
+            const daireObj = {
+                id: daireId,
+                title: daireName || daireId.toUpperCase(),
+                icon: unitIcons[daireId] || "fa-building",
+                children: []
+            };
+            
+            // Müdürlükleri ekle
+            mudurlukList.forEach(mudurlukId => {
+                // Müdürlük adını bul
+                const mudurlukName = getBirimAdi(mudurlukId);
+                
+                // Müdürlük objesini oluştur
+                const mudurlukObj = {
+                    id: mudurlukId,
+                    title: mudurlukName || mudurlukId.toUpperCase(),
+                    icon: unitIcons[mudurlukId] || "fa-briefcase"
+                };
+                
+                // Müdürlüğü daireye ekle
+                daireObj.children.push(mudurlukObj);
+            });
+            
+            // Daireyi GSY'ye ekle
+            gsyObj.children.push(daireObj);
+        });
+        
+        // Direkt müdürlükleri ekle (dairesiz)
+        directMudurlukList.forEach(mudurlukId => {
+            // Müdürlük adını bul
+            const mudurlukName = getBirimAdi(mudurlukId);
+            
+            // Müdürlük objesini oluştur
+            const mudurlukObj = {
+                id: mudurlukId,
+                title: mudurlukName || mudurlukId.toUpperCase(),
+                icon: unitIcons[mudurlukId] || "fa-briefcase"
+            };
+            
+            // Müdürlüğü direkt GSY'ye ekle
+            gsyObj.children.push(mudurlukObj);
+        });
+        
+        return gsyObj;
+    });
+    
+    console.log("Organizasyon verisi oluşturuldu:", organizationData);
+}
+
+// Birim ID'sine göre birim adını getiren fonksiyon
+function getBirimAdi(birimId) {
+    const manager = managerData.find(m => m.id === birimId);
+    return manager ? manager.birim : null;
+}
+
+// Organizasyon ilişki haritasını oluşturan fonksiyon
+function buildOrganizationMap() {
+    // Haritaları sıfırla
+    unitParentMap = {};
+    unitLevelMap = {};
+    gsyDaireMap = {};
+    daireMudurlukMap = {};
+    
+    // structureData'dan haritalama oluştur
+    structureData.forEach(item => {
+        const gsyId = item["gsy-id"];
+        const daireId = item["daire-id"];
+        const mudurlukId = item["mudurluk-id"];
+        
+        // GSY seviyesi için
+        if (gsyId) {
+            unitLevelMap[gsyId] = 1;
+            
+            if (!gsyDaireMap[gsyId]) {
+                gsyDaireMap[gsyId] = [];
+            }
+        }
+        
+        // Daire seviyesi için
+        if (daireId) {
+            unitParentMap[daireId] = gsyId;
+            unitLevelMap[daireId] = 2;
+            
+            if (gsyId && !gsyDaireMap[gsyId].includes(daireId)) {
+                gsyDaireMap[gsyId].push(daireId);
+            }
+            
+            if (!daireMudurlukMap[daireId]) {
+                daireMudurlukMap[daireId] = [];
+            }
+        }
+        
+        // Müdürlük seviyesi için
+        if (mudurlukId) {
+            if (daireId) {
+                unitParentMap[mudurlukId] = daireId;
+                unitLevelMap[mudurlukId] = 3;
+                
+                if (!daireMudurlukMap[daireId].includes(mudurlukId)) {
+                    daireMudurlukMap[daireId].push(mudurlukId);
+                }
+            } else if (gsyId) {
+                // Direkt GSY'ye bağlı müdürlük
+                unitParentMap[mudurlukId] = gsyId;
+                unitLevelMap[mudurlukId] = 2; // Daire seviyesinde değerlendiriyoruz
+            }
+        }
+    });
+    
+    console.log("Birim-Üst Birim Haritası:", unitParentMap);
+    console.log("Birim-Seviye Haritası:", unitLevelMap);
+    console.log("GSY-Daire Haritası:", gsyDaireMap);
+    console.log("Daire-Müdürlük Haritası:", daireMudurlukMap);
+}
+
+// Bir birimin üst birimini bulan fonksiyon
+function getParentUnit(unitId) {
+    return unitParentMap[unitId] || null;
+}
+
+// Bir birimin seviyesini bulan fonksiyon
+function getUnitLevel(unitId) {
+    return unitLevelMap[unitId] || 0;
+}
+
+// Bir GSY'ye bağlı daireleri bulan fonksiyon
+function getDepartmentsUnderGSY(gsyId) {
+    return gsyDaireMap[gsyId] || [];
+}
+
+// Bir daireye bağlı müdürlükleri bulan fonksiyon
+function getDirectoratesUnderDepartment(daireId) {
+    return daireMudurlukMap[daireId] || [];
+}
+
+// Bir birimin bulunduğu hiyerarşik yolu bulan fonksiyon
+function getUnitPath(unitId) {
+    const path = [];
+    let currentId = unitId;
+    
+    while (currentId) {
+        path.unshift(currentId);
+        currentId = getParentUnit(currentId);
+    }
+    
+    return path;
+}
+
+// Belirli bir birim için yöneticileri bulan fonksiyon
+function getManagersForUnit(unitId) {
+    if (!managerData || managerData.length === 0) {
+        return [];
+    }
+    
+    return managerData.filter(manager => manager.id === unitId);
+}
+
+// Belirli bir birim için ana yöneticiyi bulan fonksiyon
+function getMainManagerForUnit(unitId) {
+    const managers = getManagersForUnit(unitId);
+    
+    // Pozisyon sıralamasına göre ilk yöneticiyi bul
+    const positionPriority = ["Daire Başkanı", "Müdür", "Genel Sekreter Yardımcısı"];
+    
+    for (const position of positionPriority) {
+        const manager = managers.find(m => m.pozisyon === position);
+        if (manager) {
+            return {
+                name: manager["ad-soyad"] || "Bilgi Yok",
+                position: manager.pozisyon,
+                phone: manager.telefon || "Bilgi Yok",
+                email: manager["e-posta"] || "Bilgi Yok"
+            };
+        }
+    }
+    
+    // Eğer öncelikli pozisyonlarda yönetici yoksa, herhangi birini döndür
+    if (managers.length > 0) {
+        return {
+            name: managers[0]["ad-soyad"] || "Bilgi Yok",
+            position: managers[0].pozisyon,
+            phone: managers[0].telefon || "Bilgi Yok",
+            email: managers[0]["e-posta"] || "Bilgi Yok"
+        };
+    }
+    
+    // Hiç yönetici yoksa
+    return {
+        name: "Bilgi Yok",
+        position: "Bilgi Yok",
+        phone: "Bilgi Yok",
+        email: "Bilgi Yok"
+    };
+}
+
+// Belirli bir birim için yönetici yardımcılarını bulan fonksiyon
+function getDeputyManagersForUnit(unitId) {
+    const managers = getManagersForUnit(unitId);
+    return managers.filter(m => m.pozisyon === "Müdür Yardımcısı");
+}
 
 // Organizasyon ağacını oluşturan fonksiyon
 function buildOrganizationTree(data) {
     const orgTree = document.getElementById('orgTree');
+    orgTree.innerHTML = ''; // Önce içeriği temizle
     
     data.forEach(item => {
         // Ana sekme oluştur
         const mainItem = createOrganizationItem(item, 'org-level-1');
         orgTree.appendChild(mainItem);
     });
-    
-    // Dropdown işlemleri için event listener'ları ekle
-    setupDropdownListeners();
 }
 
 // Organizasyon öğesi oluşturan fonksiyon
@@ -416,16 +375,19 @@ function createOrganizationItem(itemData, levelClass) {
     header.className = `org-header ${levelClass}`;
     header.setAttribute('data-id', itemData.id);
     
-    // Müdür bilgisi varsa
-    if (itemData.manager) {
+    // Birim için ilgili yönetici bilgilerini al
+    const manager = getMainManagerForUnit(itemData.id);
+    
+    // Yönetici bilgisi varsa
+    if (manager && manager.name !== "Bilgi Yok") {
         header.setAttribute('data-title', itemData.title);
-        header.setAttribute('data-mudur', itemData.manager.name);
-        header.setAttribute('data-pozisyon', itemData.manager.position);
-        header.setAttribute('data-tel', itemData.manager.phone);
-        header.setAttribute('data-email', itemData.manager.email);
+        header.setAttribute('data-mudur', manager.name);
+        header.setAttribute('data-pozisyon', manager.position);
+        header.setAttribute('data-tel', manager.phone);
+        header.setAttribute('data-email', manager.email);
         
-        // Alt öğeleri varsa ve "Şube Müdürü" değilse (yani Daire Başkanı ise)
-        if (itemData.children && itemData.children.length > 0 && itemData.manager.position !== 'Şube Müdürü') {
+        // Alt öğeleri varsa ve müdürlük değilse (yani daire başkanlığı ise)
+        if (itemData.children && itemData.children.length > 0 && manager.position !== "Müdür") {
             header.setAttribute('aria-expanded', 'false');
             
             // Header içeriğini oluştur - Başlık kısmı ve ikon kısmı ayrı işlem yapacak
@@ -441,7 +403,7 @@ function createOrganizationItem(itemData, levelClass) {
             const managerIcon = header.querySelector('.manager-icon-container');
             managerIcon.addEventListener('click', function(e) {
                 e.stopPropagation(); // Header'a tıklama eventini engelle
-                openManagerModal(header);
+                openManagerModal(itemData.id, itemData.title);
             });
             
             // Header'a tıklanınca içeriği açıp kapatacak event listener
@@ -460,11 +422,11 @@ function createOrganizationItem(itemData, levelClass) {
             
             // Tıklanınca modal'ı açacak event listener
             header.addEventListener('click', function() {
-                openManagerModal(this);
+                openManagerModal(itemData.id, itemData.title);
             });
         }
     } 
-    // Müdür bilgisi yoksa (sadece kategorik bir başlık)
+    // Yönetici bilgisi yoksa veya "Bilgi Yok" ise (sadece kategorik bir başlık)
     else {
         header.setAttribute('aria-expanded', 'false');
         
@@ -475,10 +437,17 @@ function createOrganizationItem(itemData, levelClass) {
             <div><i class="fas fa-chevron-down"></i></div>
         `;
         
-        // İçerik açma/kapama için tıklama event listener'ı
-        header.addEventListener('click', function() {
-            toggleContent(this);
-        });
+        // Alt öğeleri varsa, içerik açma/kapama için tıklama event listener'ı
+        if (itemData.children && itemData.children.length > 0) {
+            header.addEventListener('click', function() {
+                toggleContent(this);
+            });
+        } else {
+            // Alt öğeleri yoksa ve yönetici bilgisi de yoksa, yine de tıklanabilir
+            header.addEventListener('click', function() {
+                openManagerModal(itemData.id, itemData.title);
+            });
+        }
     }
     
     orgItem.appendChild(header);
@@ -545,18 +514,116 @@ function toggleContent(headerElement) {
 }
 
 // Müdür modalını açan fonksiyon
-function openManagerModal(element) {
-    const title = element.getAttribute('data-title');
-    const mudur = element.getAttribute('data-mudur');
-    const pozisyon = element.getAttribute('data-pozisyon');
-    const tel = element.getAttribute('data-tel');
-    const email = element.getAttribute('data-email');
+function openManagerModal(unitId, unitTitle) {
+    console.log("Modal açılıyor, birim ID:", unitId, "Başlık:", unitTitle);
     
-    document.getElementById('modalBirimAdi').textContent = title;
-    document.getElementById('modalMudurAdi').textContent = mudur;
-    document.getElementById('modalPozisyon').textContent = pozisyon;
-    document.getElementById('modalTelefon').textContent = tel;
-    document.getElementById('modalEmail').textContent = email;
+    // Birim adını ayarla
+    document.getElementById('modalBirimAdi').textContent = unitTitle;
+    
+    // Birim için ana yöneticiyi getir
+    const manager = getMainManagerForUnit(unitId);
+    console.log("Ana yönetici:", manager);
+    
+    // Ana yönetici bilgilerini modalda göster
+    document.getElementById('modalMudurAdi').textContent = manager.name;
+    document.getElementById('modalPozisyon').textContent = manager.position;
+    document.getElementById('modalTelefon').textContent = manager.phone;
+    document.getElementById('modalEmail').textContent = manager.email;
+    
+    // Birim hiyerarşisi bilgisi ekle
+    const unitLevel = getUnitLevel(unitId);
+    console.log("Birim seviyesi:", unitLevel);
+    const hierarchyInfo = document.getElementById('modalHierarchyInfo');
+    
+    if (hierarchyInfo) {
+        hierarchyInfo.innerHTML = '';
+        
+        // Hiyerarşi bilgisini ekle
+        if (unitLevel === 3) { // Müdürlük seviyesi
+            const daireId = getParentUnit(unitId);
+            const gsyId = getParentUnit(daireId);
+            
+            if (daireId && gsyId) {
+                const daireName = getBirimAdi(daireId);
+                const gsyName = getBirimAdi(gsyId);
+                
+                hierarchyInfo.innerHTML = `
+                    <small class="text-muted d-block">
+                        <strong>Bağlı Olduğu Daire:</strong> ${daireName || 'Bilgi Yok'}
+                    </small>
+                    <small class="text-muted d-block">
+                        <strong>Bağlı Olduğu GSY:</strong> ${gsyName || 'Bilgi Yok'}
+                    </small>
+                `;
+            }
+        } else if (unitLevel === 2) { // Daire seviyesi
+            const gsyId = getParentUnit(unitId);
+            
+            if (gsyId) {
+                const gsyName = getBirimAdi(gsyId);
+                
+                hierarchyInfo.innerHTML = `
+                    <small class="text-muted d-block">
+                        <strong>Bağlı Olduğu GSY:</strong> ${gsyName || 'Bilgi Yok'}
+                    </small>
+                `;
+            }
+        }
+    }
+    
+    // Yardımcılar bölümünün gösterilip gösterilmeyeceğini belirle
+    const deputySection = document.getElementById('deputySection');
+    const deputyList = document.getElementById('deputyList');
+    
+    console.log("Pozisyon:", manager.position);
+    console.log("Yardımcılar bölümü elementi:", deputySection);
+    console.log("Yardımcılar listesi:", deputyList);
+    
+    // Eğer Daire Başkanı ise, yardımcılar bölümünü gizle
+    if (manager.position === "Daire Başkanı" || manager.position === "Genel Sekreter Yardımcısı") {
+        console.log("Daire Başkanı veya GSY, yardımcılar bölümü gizleniyor.");
+        if (deputySection) {
+            deputySection.style.display = 'none';
+        }
+    } else {
+        console.log("Müdür pozisyonu, yardımcılar bölümü gösteriliyor.");
+        // Daire Başkanı değilse, Müdür pozisyonu ise Müdür Yardımcılarını göster
+        if (deputySection) {
+            deputySection.style.display = 'block';
+        }
+        
+        // Yardımcıları getir
+        const deputies = getDeputyManagersForUnit(unitId);
+        console.log("Bulunan yardımcılar:", deputies);
+        
+        // Yardımcılar listesini oluştur
+        if (deputyList) {
+            deputyList.innerHTML = ''; // Önce içeriği temizle
+            
+            // Eğer yardımcı varsa ekle
+            if (deputies && deputies.length > 0) {
+                console.log("Yardımcılar ekleniyor:", deputies.length);
+                deputies.forEach(deputy => {
+                    const listItem = document.createElement('div');
+                    listItem.className = 'list-group-item';
+                    listItem.innerHTML = `
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">${deputy["ad-soyad"] || "İsim Bilgisi Yok"}</h6>
+                            <small>${deputy.pozisyon}</small>
+                        </div>
+                        <small class="text-muted">${deputy.telefon || "Telefon Bilgisi Yok"}</small>
+                    `;
+                    deputyList.appendChild(listItem);
+                });
+            } else {
+                console.log("Yardımcı bulunamadı, bilgi mesajı ekleniyor.");
+                // Yardımcı yoksa bilgi mesajı göster
+                deputyList.innerHTML = '<div class="list-group-item">Müdür yardımcısı bilgisi bulunamadı.</div>';
+            }
+        } else {
+            console.error("Deputy list elementi bulunamadı!");
+        }
+    }
     
     // Modal'ı aç
     const modal = new bootstrap.Modal(document.getElementById('mudurModal'));
@@ -570,18 +637,20 @@ function setupModalHandlers() {
         mudurModal.addEventListener('hidden.bs.modal', function() {
             // Modal kapandığında temizlik işlemi
             document.getElementById('modalBirimAdi').textContent = '';
+            document.getElementById('modalHierarchyInfo').innerHTML = '';
             document.getElementById('modalMudurAdi').textContent = '';
             document.getElementById('modalPozisyon').textContent = '';
             document.getElementById('modalTelefon').textContent = '';
             document.getElementById('modalEmail').textContent = '';
+            document.getElementById('deputyList').innerHTML = '';
+            
+            // Yardımcılar bölümünü görünür yap (bir sonraki açılışta doğru şekilde değerlendirilecek)
+            const deputySection = document.getElementById('deputySection');
+            if (deputySection) {
+                deputySection.style.display = 'block';
+            }
         });
     }
-}
-
-// Dropdown işlemleri için event listener'ları ekleyen fonksiyon - Bu fonksiyon artık kullanılmıyor
-// Çünkü yeni tıklama işlemleri toggleContent fonksiyonu ile yönetiliyor
-function setupDropdownListeners() {
-    // Gerekli değil - Silindi veya boş bırakıldı
 }
 
 // Arama işlemleri için event handler'ları kuran fonksiyon
@@ -622,24 +691,43 @@ function performSearch(searchText) {
         title.innerHTML = title.textContent;
     });
     
-    // Arama metnine uyan öğeleri bul ve göster
+    // Arama metnine uyan birimlerle birlikte yöneticilerin isimlerinde de ara
     allHeaders.forEach(header => {
         const title = header.querySelector('.title').textContent.toLowerCase();
+        const unitId = header.getAttribute('data-id');
         const parent = header.closest('.org-item');
         
-        if (title.includes(searchText)) {
+        // Birim adında ara
+        const titleMatch = title.includes(searchText);
+        
+        // Yönetici adlarında ara
+        let managerMatch = false;
+        if (unitId) {
+            const managers = getManagersForUnit(unitId);
+            for (const manager of managers) {
+                if (manager["ad-soyad"] && manager["ad-soyad"].toLowerCase().includes(searchText)) {
+                    managerMatch = true;
+                    break;
+                }
+            }
+        }
+        
+        // Hem birim adında hem de yönetici adında arama yap
+        if (titleMatch || managerMatch) {
             foundResults = true;
             
             // Bu öğeyi göster
             parent.style.display = 'block';
             
-            // Metni vurgula
-            const titleEl = header.querySelector('.title');
-            const highlightedText = titleEl.textContent.replace(
-                new RegExp(searchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'),
-                match => `<span class="bg-warning">${match}</span>`
-            );
-            titleEl.innerHTML = highlightedText;
+            // Eğer birim adı eşleşiyorsa metni vurgula
+            if (titleMatch) {
+                const titleEl = header.querySelector('.title');
+                const highlightedText = titleEl.textContent.replace(
+                    new RegExp(searchText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'),
+                    match => `<span class="bg-warning">${match}</span>`
+                );
+                titleEl.innerHTML = highlightedText;
+            }
             
             // Üst öğeleri göster
             showParentElements(parent);
@@ -648,7 +736,6 @@ function performSearch(searchText) {
     
     // Hiç sonuç bulunamadıysa bilgi ver
     if (!foundResults) {
-        // İsteğe bağlı: Sonuç bulunamadı mesajı göster
         console.log("Sonuç bulunamadı.");
     }
 }
