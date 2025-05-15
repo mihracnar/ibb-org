@@ -1,0 +1,298 @@
+[
+  {
+    "id": "gsy3",
+    "birim": "GENEL SEKRETER YARDIMCILIĞI-3",
+    "pozisyon": "Genel Sekreter Yardımcısı",
+    "ad-soyad": "Ahmet Can Deniz", 
+    "telefon": "0212 555 0001",
+    "e-posta": "ahmet.deniz@belediye.gov.tr"
+  },
+  {
+    "id": "gsy4",
+    "birim": "GENEL SEKRETER YARDIMCILIĞI-4",
+    "pozisyon": "Genel Sekreter Yardımcısı",
+    "ad-soyad": "Ebru Aydın",
+    "telefon": "0212 555 0002",
+    "e-posta": "ebru.aydin@belediye.gov.tr"
+  },
+  {
+    "id": "muhtarlik-isleri",
+    "birim": "MUHTARLIK İŞLERİ DAİRESİ BAŞKANLIĞI",
+    "pozisyon": "Daire Başkanı",
+    "ad-soyad": "Ayşe Temel",
+    "telefon": "0212 555 4100",
+    "e-posta": "ayse.temel@belediye.gov.tr"
+  },
+  {
+    "id": "kultur-daire",
+    "birim": "KÜLTÜR DAİRESİ BAŞKANLIĞI",
+    "pozisyon": "Daire Başkanı",
+    "ad-soyad": "Özgür Ceylan",
+    "telefon": "0212 555 1100",
+    "e-posta": "ozgur.ceylan@belediye.gov.tr"
+  },
+  {
+    "id": "kultur-varliklari",
+    "birim": "KÜLTÜR VARLIKLARI DAİRESİ BAŞKANLIĞI",
+    "pozisyon": "Daire Başkanı",
+    "ad-soyad": "Bahar Erdem",
+    "telefon": "0212 555 2100",
+    "e-posta": "bahar.erdem@belediye.gov.tr"
+  },
+  {
+    "id": "sosyal-hizmetler",
+    "birim": "SOSYAL HİZMETLER DAİRESİ BAŞKANLIĞI",
+    "pozisyon": "Daire Başkanı",
+    "ad-soyad": "Murat Akgün",
+    "telefon": "0212 555 3100",
+    "e-posta": "murat.akgun@belediye.gov.tr"
+  },
+  {
+    "id": "deprem-risk",
+    "birim": "DEPREM RİSK YÖNETİMİ VE KENTSEL İYİLEŞTİRME DAİRESİ BAŞKANLIĞI",
+    "pozisyon": "Daire Başkanı",
+    "ad-soyad": "Serdar Yıldız",
+    "telefon": "0212 555 6100",
+    "e-posta": "serdar.yildiz@belediye.gov.tr"
+  },
+  {
+    "id": "imar-sehircilik",
+    "birim": "İMAR VE ŞEHİRCİLİK DAİRESİ BAŞKANLIĞI",
+    "pozisyon": "Daire Başkanı",
+    "ad-soyad": "Cengiz Toprak",
+    "telefon": "0212 555 7100",
+    "e-posta": "cengiz.toprak@belediye.gov.tr"
+  },
+  {
+    "id": "anadolu-muhtarlik",
+    "birim": "ANADOLU YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "İbrahim Yıldırım",
+    "telefon": "0212 555 4113",
+    "e-posta": "ibrahim.yildirim@belediye.gov.tr"
+  },
+  {
+    "id": "anadolu-muhtarlik",
+    "birim": "ANADOLU YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Leyla Acar",
+    "telefon": "0212 555 9001",
+    "e-posta": "leyla.acar@belediye.gov.tr"
+  },
+  {
+    "id": "anadolu-muhtarlik",
+    "birim": "ANADOLU YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Oğuz Taner",
+    "telefon": "0212 555 9002",
+    "e-posta": "oguz.taner@belediye.gov.tr"
+  },
+  {
+    "id": "avrupa-muhtarlik",
+    "birim": "AVRUPA YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Selim Aydın",
+    "telefon": "0212 555 4111",
+    "e-posta": "selim.aydin@belediye.gov.tr"
+  },
+  {
+    "id": "cocuk-hizmetler",
+    "birim": "ÇOCUK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Sema Özkan",
+    "telefon": "0212 555 3113",
+    "e-posta": "sema.ozkan@belediye.gov.tr"
+  },
+  {
+    "id": "dini-kurumlar",
+    "birim": "DİNİ KURUM VE TOPLULUKLARLA İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Ali Öztürk",
+    "telefon": "0212 555 1115",
+    "e-posta": "ali.ozturk@belediye.gov.tr"
+  },
+  {
+    "id": "engelli-hizmetleri",
+    "birim": "ENGELLİ HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Orhan Gül",
+    "telefon": "0212 555 3114",
+    "e-posta": "orhan.gul@belediye.gov.tr"
+  },
+  {
+    "id": "kadin-aile",
+    "birim": "KADIN VE AİLE HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Sevgi Kılıç",
+    "telefon": "0212 555 3111",
+    "e-posta": "sevgi.kilic@belediye.gov.tr"
+  },
+  {
+    "id": "koruma-uygulama",
+    "birim": "KORUMA UYGULAMA VE DENETİM ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Mustafa Yılmaz",
+    "telefon": "0212 555 2111",
+    "e-posta": "mustafa.yilmaz@belediye.gov.tr"
+  },
+  {
+    "id": "kultur-projeler",
+    "birim": "KÜLTÜR VARLIKLARI PROJELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Hatice Çelik",
+    "telefon": "0212 555 2112",
+    "e-posta": "hatice.celik@belediye.gov.tr"
+  },
+  {
+    "id": "kulturel-etkinlikler",
+    "birim": "KÜLTÜREL ETKİNLİKLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Ahmet Yılmaz",
+    "telefon": "0212 555 1111",
+    "e-posta": "ahmet.yilmaz@belediye.gov.tr"
+  },
+  {
+    "id": "kulturel-etkinlikler",
+    "birim": "KÜLTÜREL ETKİNLİKLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Aslı Demir",
+    "telefon": "0212 555 1121",
+    "e-posta": "asli.demir@belediye.gov.tr"
+  },
+  {
+    "id": "kulturel-miras",
+    "birim": "KÜLTÜREL MİRAS KORUMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Kemal Turgut",
+    "telefon": "0212 555 2113",
+    "e-posta": "kemal.turgut@belediye.gov.tr"
+  },
+  {
+    "id": "kutuphane-muze",
+    "birim": "KÜTÜPHANE VE MÜZELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Elif Korkmaz",
+    "telefon": "0212 555 2114",
+    "e-posta": "elif.korkmaz@belediye.gov.tr"
+  },
+  {
+    "id": "muhtarlik-destek",
+    "birim": "MUHTARLIKLAR DESTEK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Canan Şimşek",
+    "telefon": "0212 555 4112",
+    "e-posta": "canan.simsek@belediye.gov.tr"
+  },
+  {
+    "id": "orkestralar",
+    "birim": "ORKESTRALAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Ayşe Kaya",
+    "telefon": "0212 555 1112",
+    "e-posta": "ayse.kaya@belediye.gov.tr"
+  },
+  {
+    "id": "sehir-tiyatro",
+    "birim": "ŞEHİR TİYATROLARI ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Mehmet Demir",
+    "telefon": "0212 555 1113",
+    "e-posta": "mehmet.demir@belediye.gov.tr"
+  },
+  {
+    "id": "sehit-gazi",
+    "birim": "ŞEHİT YAKINLARI VE GAZİLERLE İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Hüseyin Doğan",
+    "telefon": "0212 555 3115",
+    "e-posta": "huseyin.dogan@belediye.gov.tr"
+  },
+  {
+    "id": "sosyal-hizmet",
+    "birim": "SOSYAL HİZMETLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Emre Arslan",
+    "telefon": "0212 555 3112",
+    "e-posta": "emre.arslan@belediye.gov.tr"
+  },
+  {
+    "id": "stk-iliskileri",
+    "birim": "SİVİL TOPLUM KURULUŞLARI İLİŞKİLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Fatma Şahin",
+    "telefon": "0212 555 1116",
+    "e-posta": "fatma.sahin@belediye.gov.tr"
+  },
+  {
+    "id": "turizm",
+    "birim": "TURİZM ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Zeynep Yıldız",
+    "telefon": "0212 555 1114",
+    "e-posta": "zeynep.yildiz@belediye.gov.tr"
+  },
+  {
+    "id": "bogazici-imar",
+    "birim": "BOĞAZİÇİ İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Tolga Keskin",
+    "telefon": "0212 555 5111",
+    "e-posta": "tolga.keskin@belediye.gov.tr"
+  },
+  {
+    "id": "deprem-zemin",
+    "birim": "DEPREM VE ZEMİN İNCELEME ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Metin Coşkun",
+    "telefon": "0212 555 6111",
+    "e-posta": "metin.coskun@belediye.gov.tr"
+  },
+  {
+    "id": "harita",
+    "birim": "HARİTA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Serkan Özdemir",
+    "telefon": "0212 555 7111",
+    "e-posta": "serkan.ozdemir@belediye.gov.tr"
+  },
+  {
+    "id": "imar",
+    "birim": "İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Nil Yaman",
+    "telefon": "0212 555 7112",
+    "e-posta": "nil.yaman@belediye.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-planlama",
+    "birim": "KENTSEL DÖNÜŞÜM PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Hakan Tekin",
+    "telefon": "0212 555 6113",
+    "e-posta": "hakan.tekin@belediye.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-uygulama",
+    "birim": "KENTSEL DÖNÜŞÜM UYGULAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Banu Yücel",
+    "telefon": "0212 555 6112",
+    "e-posta": "banu.yucel@belediye.gov.tr"
+  },
+  {
+    "id": "planlama",
+    "birim": "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Cem Kaya",
+    "telefon": "0212 555 7113",
+    "e-posta": "cem.kaya@belediye.gov.tr"
+  },
+  {
+    "id": "sehir-planlama",
+    "birim": "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Derya Ergin",
+    "telefon": "0212 555 7114",
+    "e-posta": "derya.ergin@belediye.gov.tr"
+  }
+]

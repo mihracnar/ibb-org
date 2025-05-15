@@ -1,0 +1,172 @@
+[
+  {
+    "gsy-id": "gsy3",
+    "daire-id": null,
+    "mudurluk-id": null
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "muhtarlik-isleri",
+    "mudurluk-id": null
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "muhtarlik-isleri",
+    "mudurluk-id": "anadolu-muhtarlik"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "muhtarlik-isleri",
+    "mudurluk-id": "avrupa-muhtarlik"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "muhtarlik-isleri",
+    "mudurluk-id": "muhtarlik-destek"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-daire",
+    "mudurluk-id": null
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-daire",
+    "mudurluk-id": "kulturel-etkinlikler"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-daire",
+    "mudurluk-id": "orkestralar"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-daire",
+    "mudurluk-id": "sehir-tiyatro"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-daire",
+    "mudurluk-id": "turizm"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-daire",
+    "mudurluk-id": "dini-kurumlar"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-daire",
+    "mudurluk-id": "stk-iliskileri"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-varliklari",
+    "mudurluk-id": null
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-varliklari",
+    "mudurluk-id": "koruma-uygulama"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-varliklari",
+    "mudurluk-id": "kultur-projeler"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-varliklari",
+    "mudurluk-id": "kulturel-miras"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "kultur-varliklari",
+    "mudurluk-id": "kutuphane-muze"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "sosyal-hizmetler",
+    "mudurluk-id": null
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "sosyal-hizmetler",
+    "mudurluk-id": "cocuk-hizmetler"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "sosyal-hizmetler",
+    "mudurluk-id": "engelli-hizmetleri"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "sosyal-hizmetler",
+    "mudurluk-id": "kadin-aile"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "sosyal-hizmetler",
+    "mudurluk-id": "sehit-gazi"
+  },
+  {
+    "gsy-id": "gsy3",
+    "daire-id": "sosyal-hizmetler",
+    "mudurluk-id": "sosyal-hizmet"
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": null,
+    "mudurluk-id": null
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": null,
+    "mudurluk-id": "bogazici-imar"
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "deprem-risk",
+    "mudurluk-id": null
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "deprem-risk",
+    "mudurluk-id": "deprem-zemin"
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "deprem-risk",
+    "mudurluk-id": "kentsel-donusum-planlama"
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "deprem-risk",
+    "mudurluk-id": "kentsel-donusum-uygulama"
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "imar-sehircilik",
+    "mudurluk-id": null
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "imar-sehircilik",
+    "mudurluk-id": "harita"
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "imar-sehircilik",
+    "mudurluk-id": "imar"
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "imar-sehircilik",
+    "mudurluk-id": "planlama"
+  },
+  {
+    "gsy-id": "gsy4",
+    "daire-id": "imar-sehircilik",
+    "mudurluk-id": "sehir-planlama"
+  }
+]
