@@ -494,5 +494,293 @@
     "ad-soyad": "Oğuzcan Cantürk",
     "telefon": 5073464241,
     "e-posta": "oguzcan.canturk@ibb.gov.tr"
+  },
+  {
+    "id": "deprem-risk",
+    "birim": "DEPREM RİSK YÖNETİMİ VE KENTSEL İYİLEŞTİRME DAİRESİ BAŞKANLIĞI",
+    "pozisyon": "Daire Başkanı",
+    "ad-soyad": "Murat YÜN",
+    "telefon": 5055269561,
+    "e-posta": "murat.yun@ibb.gov.tr"
+  },
+  {
+    "id": "imar-sehircilik",
+    "birim": "İMAR VE ŞEHİRCİLİK DAİRESİ BAŞKANLIĞI",
+    "pozisyon": "Daire Başkanı",
+    "ad-soyad": "Özcan Dağ",
+    "telefon": "532 664 14 89",
+    "e-posta": "ozcan.dag@ibb.gov.tr"
+  },
+  {
+    "id": "bogazici-imar",
+    "birim": "BOĞAZİÇİ İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Şükran Yıldırmış BOYRAZ",
+    "telefon": 5443408588,
+    "e-posta": "sukran.boyraz@ibb.gov.tr"
+  },
+  {
+    "id": "deprem-zemin",
+    "birim": "DEPREM VE ZEMİN İNCELEME ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Evrim YAVUZ",
+    "telefon": 5362152028,
+    "e-posta": "evrim.yavuz@ibb.gov.tr"
+  },
+  {
+    "id": "harita",
+    "birim": "HARİTA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Osman Aydın",
+    "telefon": "533 549 4352",
+    "e-posta": "osman.aydin@ibb.gov.tr"
+  },
+  {
+    "id": "imar",
+    "birim": "İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Atama Yapılmadı",
+    "telefon": "",
+    "e-posta": ""
+  },
+  {
+    "id": "kentsel-donusum-planlama",
+    "birim": "KENTSEL DÖNÜŞÜM PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Necat AKIN",
+    "telefon": 5353776282,
+    "e-posta": "necat.akin@ibb.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-uygulama",
+    "birim": "KENTSEL DÖNÜŞÜM UYGULAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Pınar ÇALIŞKAN GÜLTEN",
+    "telefon": 5325075272,
+    "e-posta": "pinar.caliskan@ibb.gov.tr"
+  },
+  {
+    "id": "planlama",
+    "birim": "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Özcan Dağ",
+    "telefon": "532 664 1489",
+    "e-posta": "ozcan.dag@ibb.gov.tr"
+  },
+  {
+    "id": "sehir-planlama",
+    "birim": "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür",
+    "ad-soyad": "Fatih Doğan",
+    "telefon": "535 454 5286",
+    "e-posta": "fatih.dogan@ibb.gov.tr"
+  },
+  {
+    "id": "bogazici-imar",
+    "birim": "BOĞAZİÇİ İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Selçuk UZUN",
+    "telefon": 5316448716,
+    "e-posta": "selcuk.uzun@ibb.gov.tr"
+  },
+  {
+    "id": "bogazici-imar",
+    "birim": "BOĞAZİÇİ İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Yücel YATKIN",
+    "telefon": 5335122817,
+    "e-posta": "yucel.yatkin@ibb.gov.tr"
+  },
+  {
+    "id": "deprem-zemin",
+    "birim": "DEPREM VE ZEMİN İNCELEME ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Deniz Yılmaz",
+    "telefon": 5055432596,
+    "e-posta": "deniz.yilmaz@ibb.gov.tr"
+  },
+  {
+    "id": "deprem-zemin",
+    "birim": "DEPREM VE ZEMİN İNCELEME ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Hakan Mehmetoğlu",
+    "telefon": 5327975400,
+    "e-posta": "hakan.mehmetoglu@ibb.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-planlama",
+    "birim": "KENTSEL DÖNÜŞÜM PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Ayşe Canan GÜNAY",
+    "telefon": 5353301568,
+    "e-posta": "canan.gunay@ibb.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-planlama",
+    "birim": "KENTSEL DÖNÜŞÜM PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Hilal ÜNDÜL",
+    "telefon": 5323760174,
+    "e-posta": "hilal.undul@ibb.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-planlama",
+    "birim": "KENTSEL DÖNÜŞÜM PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Gökçer OKUMUŞ",
+    "telefon": 5353558195,
+    "e-posta": "gokcer.okumus@ibb.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-uygulama",
+    "birim": "KENTSEL DÖNÜŞÜM UYGULAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Yasemin KARAHAN ÇAKIR",
+    "telefon": 5064023754,
+    "e-posta": "yasemin.karahancakir@ibb.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-uygulama",
+    "birim": "KENTSEL DÖNÜŞÜM UYGULAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Murat TONBUL",
+    "telefon": 5368672968,
+    "e-posta": "murat.tonbul@ibb.gov.tr"
+  },
+  {
+    "id": "kentsel-donusum-uygulama",
+    "birim": "KENTSEL DÖNÜŞÜM UYGULAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Yaşar AKASLAN",
+    "telefon": 5558681873,
+    "e-posta": "yasar.akaslan@ibb.gov.tr"
+  },
+  {
+    "id": "harita",
+    "birim": "HARİTA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Ülger Munzuroğlu",
+    "telefon": "533 465 0719",
+    "e-posta": "umunzuroglu@ibb.gov.tr"
+  },
+  {
+    "id": "harita",
+    "birim": "HARİTA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Hünkar Altıner",
+    "telefon": "530 644 1855",
+    "e-posta": "hunkar.altıner@ibb.gov.tr"
+  },
+  {
+    "id": "harita",
+    "birim": "HARİTA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Sinem Ünlüler",
+    "telefon": "505 859 9105",
+    "e-posta": "sinem.unluler@ibb.gov.tr"
+  },
+  {
+    "id": "imar",
+    "birim": "İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Berna IŞIK",
+    "telefon": "532 291 2818",
+    "e-posta": "berna.isik@ibb.gov.tr"
+  },
+  {
+    "id": "imar",
+    "birim": "İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Emre Çorlu",
+    "telefon": "506 993 1726",
+    "e-posta": "emre.corlu@ibb.gov.tr"
+  },
+  {
+    "id": "imar",
+    "birim": "İMAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Harun Özeri",
+    "telefon": "532 295 3272",
+    "e-posta": "harun.ozeri@ibb.gov.tr"
+  },
+  {
+    "id": "planlama",
+    "birim": "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Derya Sağlam",
+    "telefon": "533 386 5589",
+    "e-posta": "derya.saglam@ibb.gov.tr"
+  },
+  {
+    "id": "planlama",
+    "birim": "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Züleyha Uğurçağ",
+    "telefon": "533 651 4662",
+    "e-posta": "zuleyha.ugurcag@ibb.gov.tr"
+  },
+  {
+    "id": "planlama",
+    "birim": "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Emine Azaklı Özmen",
+    "telefon": "532 306 9258",
+    "e-posta": "emine.azakli@ibb.gov.tr"
+  },
+  {
+    "id": "planlama",
+    "birim": "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Ebru Ülgen Şendil",
+    "telefon": "533 325 7019",
+    "e-posta": "ulgen.sendil@ibb.gov.tr"
+  },
+  {
+    "id": "planlama",
+    "birim": "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Nazlı Funda Arıbaş",
+    "telefon": "532 351 5741",
+    "e-posta": "funda.aribas@ibb.gov.tr"
+  },
+  {
+    "id": "sehir-planlama",
+    "birim": "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Selvi Çolak",
+    "telefon": "532 686 9436",
+    "e-posta": "selvi.colak@ibb.gov.tr"
+  },
+  {
+    "id": "sehir-planlama",
+    "birim": "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Sevgi Nur Bulut",
+    "telefon": "506 219 3644",
+    "e-posta": "sevginur.bulut@ibb.gov.tr"
+  },
+  {
+    "id": "sehir-planlama",
+    "birim": "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Fatma Gülyüz Çelenk",
+    "telefon": "535 365 1465",
+    "e-posta": "fatmagulyuz.celenk@ibb.gov.tr"
+  },
+  {
+    "id": "sehir-planlama",
+    "birim": "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Pelin Süygen",
+    "telefon": "533 560 7925",
+    "e-posta": "pelin.suygen@ibb.gov.tr"
+  },
+  {
+    "id": "sehir-planlama",
+    "birim": "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Serkan Baş",
+    "telefon": "533 353 1086",
+    "e-posta": "sbas@ibb.gov.tr"
   }
 ]
