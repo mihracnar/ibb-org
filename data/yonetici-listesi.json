@@ -3,296 +3,496 @@
     "id": "gsy3",
     "birim": "GENEL SEKRETER YARDIMCILIĞI-3",
     "pozisyon": "Genel Sekreter Yardımcısı",
-    "ad-soyad": "Ahmet Can Deniz", 
-    "telefon": "0212 555 0001",
-    "e-posta": "ahmet.deniz@belediye.gov.tr"
+    "ad-soyad": "Mahir POLAT", 
+    "telefon": "",
+    "e-posta": "gnlsekreteryrd.3@ibb.gov.tr"
   },
   {
     "id": "gsy4",
     "birim": "GENEL SEKRETER YARDIMCILIĞI-4",
     "pozisyon": "Genel Sekreter Yardımcısı",
-    "ad-soyad": "Ebru Aydın",
-    "telefon": "0212 555 0002",
-    "e-posta": "ebru.aydin@belediye.gov.tr"
+    "ad-soyad": "Gürkan AKGÜN",
+    "telefon": "",
+    "e-posta": "gurkan.akgun@ibb.gov.tr"
   },
   {
     "id": "muhtarlik-isleri",
     "birim": "MUHTARLIK İŞLERİ DAİRESİ BAŞKANLIĞI",
     "pozisyon": "Daire Başkanı",
-    "ad-soyad": "Ayşe Temel",
-    "telefon": "0212 555 4100",
-    "e-posta": "ayse.temel@belediye.gov.tr"
+    "ad-soyad": "Yavuz Saltık",
+    "telefon": 5350347417,
+    "e-posta": "yavuz.saltik@ibb.gov.tr"
   },
   {
     "id": "kultur-daire",
     "birim": "KÜLTÜR DAİRESİ BAŞKANLIĞI",
     "pozisyon": "Daire Başkanı",
-    "ad-soyad": "Özgür Ceylan",
-    "telefon": "0212 555 1100",
-    "e-posta": "ozgur.ceylan@belediye.gov.tr"
+    "ad-soyad": "Volkan Aslan",
+    "telefon": 5354517110,
+    "e-posta": "volkanaslan@ibb.gov.tr"
   },
   {
     "id": "kultur-varliklari",
     "birim": "KÜLTÜR VARLIKLARI DAİRESİ BAŞKANLIĞI",
     "pozisyon": "Daire Başkanı",
-    "ad-soyad": "Bahar Erdem",
-    "telefon": "0212 555 2100",
-    "e-posta": "bahar.erdem@belediye.gov.tr"
+    "ad-soyad": "Oktay Özel",
+    "telefon": 5336575270,
+    "e-posta": "oktay.ozel@ibb.gov.tr"
   },
   {
     "id": "sosyal-hizmetler",
     "birim": "SOSYAL HİZMETLER DAİRESİ BAŞKANLIĞI",
     "pozisyon": "Daire Başkanı",
-    "ad-soyad": "Murat Akgün",
-    "telefon": "0212 555 3100",
-    "e-posta": "murat.akgun@belediye.gov.tr"
-  },
-  {
-    "id": "deprem-risk",
-    "birim": "DEPREM RİSK YÖNETİMİ VE KENTSEL İYİLEŞTİRME DAİRESİ BAŞKANLIĞI",
-    "pozisyon": "Daire Başkanı",
-    "ad-soyad": "Serdar Yıldız",
-    "telefon": "0212 555 6100",
-    "e-posta": "serdar.yildiz@belediye.gov.tr"
-  },
-  {
-    "id": "imar-sehircilik",
-    "birim": "İMAR VE ŞEHİRCİLİK DAİRESİ BAŞKANLIĞI",
-    "pozisyon": "Daire Başkanı",
-    "ad-soyad": "Cengiz Toprak",
-    "telefon": "0212 555 7100",
-    "e-posta": "cengiz.toprak@belediye.gov.tr"
+    "ad-soyad": "Enif Yavuz Dipşar",
+    "telefon": 5303703607,
+    "e-posta": "enif.dipsar@ibb.gov.tr"
   },
   {
     "id": "anadolu-muhtarlik",
     "birim": "ANADOLU YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "İbrahim Yıldırım",
-    "telefon": "0212 555 4113",
-    "e-posta": "ibrahim.yildirim@belediye.gov.tr"
-  },
-  {
-    "id": "anadolu-muhtarlik",
-    "birim": "ANADOLU YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür Yardımcısı",
-    "ad-soyad": "Leyla Acar",
-    "telefon": "0212 555 9001",
-    "e-posta": "leyla.acar@belediye.gov.tr"
-  },
-  {
-    "id": "anadolu-muhtarlik",
-    "birim": "ANADOLU YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür Yardımcısı",
-    "ad-soyad": "Oğuz Taner",
-    "telefon": "0212 555 9002",
-    "e-posta": "oguz.taner@belediye.gov.tr"
+    "ad-soyad": "Neval Gündoğan",
+    "telefon": 5052597079,
+    "e-posta": "neval.gundogan@ibb.gov.tr"
   },
   {
     "id": "avrupa-muhtarlik",
     "birim": "AVRUPA YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Selim Aydın",
-    "telefon": "0212 555 4111",
-    "e-posta": "selim.aydin@belediye.gov.tr"
+    "ad-soyad": "Ali Öztürk",
+    "telefon": 5326755222,
+    "e-posta": "aozturk@ibb.gov.tr"
   },
   {
     "id": "cocuk-hizmetler",
     "birim": "ÇOCUK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Sema Özkan",
-    "telefon": "0212 555 3113",
-    "e-posta": "sema.ozkan@belediye.gov.tr"
+    "ad-soyad": "Şenay Gül",
+    "telefon": 5428049256,
+    "e-posta": "senay.gul@ibb.gov.tr"
   },
   {
     "id": "dini-kurumlar",
     "birim": "DİNİ KURUM VE TOPLULUKLARLA İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Ali Öztürk",
-    "telefon": "0212 555 1115",
-    "e-posta": "ali.ozturk@belediye.gov.tr"
+    "ad-soyad": "Mustafa Hilmi Baş",
+    "telefon": 5339646165,
+    "e-posta": "mhilmi.bas@ibb.gov.tr"
   },
   {
     "id": "engelli-hizmetleri",
     "birim": "ENGELLİ HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Orhan Gül",
-    "telefon": "0212 555 3114",
-    "e-posta": "orhan.gul@belediye.gov.tr"
+    "ad-soyad": "Suna Hayıroğlu",
+    "telefon": 5359651965,
+    "e-posta": "suna.hayiroglu@ibb.gov.tr"
   },
   {
     "id": "kadin-aile",
     "birim": "KADIN VE AİLE HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Sevgi Kılıç",
-    "telefon": "0212 555 3111",
-    "e-posta": "sevgi.kilic@belediye.gov.tr"
+    "ad-soyad": "Kezban Alacücük",
+    "telefon": 5365843420,
+    "e-posta": "kezban.alacucuk@ibb.gov.tr"
   },
   {
     "id": "koruma-uygulama",
     "birim": "KORUMA UYGULAMA VE DENETİM ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Mustafa Yılmaz",
-    "telefon": "0212 555 2111",
-    "e-posta": "mustafa.yilmaz@belediye.gov.tr"
+    "ad-soyad": "Okan Onur Düzgün",
+    "telefon": 5552409056,
+    "e-posta": "okan.duzgun@ibb.gov.tr"
   },
   {
     "id": "kultur-projeler",
     "birim": "KÜLTÜR VARLIKLARI PROJELER ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Hatice Çelik",
-    "telefon": "0212 555 2112",
-    "e-posta": "hatice.celik@belediye.gov.tr"
+    "ad-soyad": "Huriye Merve Gedik",
+    "telefon": 5556649670,
+    "e-posta": "merve.gedik@ibb.gov.tr"
   },
   {
     "id": "kulturel-etkinlikler",
     "birim": "KÜLTÜREL ETKİNLİKLER ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Ahmet Yılmaz",
-    "telefon": "0212 555 1111",
-    "e-posta": "ahmet.yilmaz@belediye.gov.tr"
-  },
-  {
-    "id": "kulturel-etkinlikler",
-    "birim": "KÜLTÜREL ETKİNLİKLER ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür Yardımcısı",
-    "ad-soyad": "Aslı Demir",
-    "telefon": "0212 555 1121",
-    "e-posta": "asli.demir@belediye.gov.tr"
+    "ad-soyad": "Gülayşe Eken",
+    "telefon": 5323659605,
+    "e-posta": "gulayse.eken@ibb.gov.tr"
   },
   {
     "id": "kulturel-miras",
     "birim": "KÜLTÜREL MİRAS KORUMA ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Kemal Turgut",
-    "telefon": "0212 555 2113",
-    "e-posta": "kemal.turgut@belediye.gov.tr"
+    "ad-soyad": "Hülya Kök",
+    "telefon": 5324721784,
+    "e-posta": "hulya.kok@ibb.gov.tr"
   },
   {
     "id": "kutuphane-muze",
     "birim": "KÜTÜPHANE VE MÜZELER ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Elif Korkmaz",
-    "telefon": "0212 555 2114",
-    "e-posta": "elif.korkmaz@belediye.gov.tr"
+    "ad-soyad": "Ali Şafak Özdemir",
+    "telefon": 5326074712,
+    "e-posta": "safak.ozdemir@ibb.gov.tr"
   },
   {
     "id": "muhtarlik-destek",
     "birim": "MUHTARLIKLAR DESTEK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Canan Şimşek",
-    "telefon": "0212 555 4112",
-    "e-posta": "canan.simsek@belediye.gov.tr"
+    "ad-soyad": "Zeynel Ataş",
+    "telefon": 5555535616,
+    "e-posta": "zeynel.atas@ibb.gov.tr"
   },
   {
     "id": "orkestralar",
     "birim": "ORKESTRALAR ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Ayşe Kaya",
-    "telefon": "0212 555 1112",
-    "e-posta": "ayse.kaya@belediye.gov.tr"
+    "ad-soyad": "Ozan Bircan",
+    "telefon": 5324167375,
+    "e-posta": "ozan.bircan@ibb.gov.tr"
   },
   {
     "id": "sehir-tiyatro",
     "birim": "ŞEHİR TİYATROLARI ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Mehmet Demir",
-    "telefon": "0212 555 1113",
-    "e-posta": "mehmet.demir@belediye.gov.tr"
+    "ad-soyad": "Oytun Askeroğlu",
+    "telefon": 5556938043,
+    "e-posta": "oytun.askeroglu@ibb.gov.tr"
   },
   {
     "id": "sehit-gazi",
     "birim": "ŞEHİT YAKINLARI VE GAZİLERLE İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Hüseyin Doğan",
-    "telefon": "0212 555 3115",
-    "e-posta": "huseyin.dogan@belediye.gov.tr"
+    "ad-soyad": "Ünal Samıkıran",
+    "telefon": 5317918577,
+    "e-posta": "unal.samikiran@ibb.gov.tr"
   },
   {
     "id": "sosyal-hizmet",
     "birim": "SOSYAL HİZMETLER ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Emre Arslan",
-    "telefon": "0212 555 3112",
-    "e-posta": "emre.arslan@belediye.gov.tr"
+    "ad-soyad": "Güray Ünseven",
+    "telefon": 5323017517,
+    "e-posta": "guray.unseven@ibb.gov.tr"
   },
   {
     "id": "stk-iliskileri",
     "birim": "SİVİL TOPLUM KURULUŞLARI İLİŞKİLERİ ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Fatma Şahin",
-    "telefon": "0212 555 1116",
-    "e-posta": "fatma.sahin@belediye.gov.tr"
+    "ad-soyad": "Vedat Kara",
+    "telefon": 5449247200,
+    "e-posta": "vedat.kara@ibb.gov.tr"
   },
   {
     "id": "turizm",
     "birim": "TURİZM ŞUBE MÜDÜRLÜĞÜ",
     "pozisyon": "Müdür",
-    "ad-soyad": "Zeynep Yıldız",
-    "telefon": "0212 555 1114",
-    "e-posta": "zeynep.yildiz@belediye.gov.tr"
+    "ad-soyad": "Hüseyin Gazi Coşan",
+    "telefon": 5053114703,
+    "e-posta": "huseyin.cosan@ibb.gov.tr."
   },
   {
-    "id": "bogazici-imar",
-    "birim": "BOĞAZİÇİ İMAR ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür",
-    "ad-soyad": "Tolga Keskin",
-    "telefon": "0212 555 5111",
-    "e-posta": "tolga.keskin@belediye.gov.tr"
+    "id": "anadolu-muhtarlik",
+    "birim": "ANADOLU YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Gülgün Borak",
+    "telefon": 5333045920,
+    "e-posta": "gulgun.borak@ibb.gov.tr"
   },
   {
-    "id": "deprem-zemin",
-    "birim": "DEPREM VE ZEMİN İNCELEME ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür",
-    "ad-soyad": "Metin Coşkun",
-    "telefon": "0212 555 6111",
-    "e-posta": "metin.coskun@belediye.gov.tr"
+    "id": "avrupa-muhtarlik",
+    "birim": "AVRUPA YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Fatih Akbudak",
+    "telefon": 5444352015,
+    "e-posta": "fatih.akbudak@ibb.gov.tr"
   },
   {
-    "id": "harita",
-    "birim": "HARİTA ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür",
-    "ad-soyad": "Serkan Özdemir",
-    "telefon": "0212 555 7111",
-    "e-posta": "serkan.ozdemir@belediye.gov.tr"
+    "id": "avrupa-muhtarlik",
+    "birim": "AVRUPA YAKASI MUHTARLIKLAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Mustafa Değirmenci",
+    "telefon": 5060619169,
+    "e-posta": "degirmenci.mustafa@ibb.gov.tr"
   },
   {
-    "id": "imar",
-    "birim": "İMAR ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür",
-    "ad-soyad": "Nil Yaman",
-    "telefon": "0212 555 7112",
-    "e-posta": "nil.yaman@belediye.gov.tr"
+    "id": "cocuk-hizmetler",
+    "birim": "ÇOCUK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Ersel Bulgun",
+    "telefon": 5304410141,
+    "e-posta": "ersel.bulgun@ibb.gov.tr"
   },
   {
-    "id": "kentsel-donusum-planlama",
-    "birim": "KENTSEL DÖNÜŞÜM PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür",
-    "ad-soyad": "Hakan Tekin",
-    "telefon": "0212 555 6113",
-    "e-posta": "hakan.tekin@belediye.gov.tr"
+    "id": "cocuk-hizmetler",
+    "birim": "ÇOCUK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Aylin Atlamaz",
+    "telefon": 5386697811,
+    "e-posta": "aylin.atlamaz@ibb.gov.tr"
   },
   {
-    "id": "kentsel-donusum-uygulama",
-    "birim": "KENTSEL DÖNÜŞÜM UYGULAMA ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür",
-    "ad-soyad": "Banu Yücel",
-    "telefon": "0212 555 6112",
-    "e-posta": "banu.yucel@belediye.gov.tr"
+    "id": "dini-kurumlar",
+    "birim": "DİNİ KURUM VE TOPLULUKLARLA İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Kamil Engin",
+    "telefon": 5334219104,
+    "e-posta": "kamil.engin@ibb.gov.tr"
   },
   {
-    "id": "planlama",
-    "birim": "PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür",
-    "ad-soyad": "Cem Kaya",
-    "telefon": "0212 555 7113",
-    "e-posta": "cem.kaya@belediye.gov.tr"
+    "id": "engelli-hizmetleri",
+    "birim": "ENGELLİ HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Adem Çibuk",
+    "telefon": 5066252733,
+    "e-posta": "adem.cibuk@ibb.gov.tr"
   },
   {
-    "id": "sehir-planlama",
-    "birim": "ŞEHİR PLANLAMA ŞUBE MÜDÜRLÜĞÜ",
-    "pozisyon": "Müdür",
-    "ad-soyad": "Derya Ergin",
-    "telefon": "0212 555 7114",
-    "e-posta": "derya.ergin@belediye.gov.tr"
+    "id": "engelli-hizmetleri",
+    "birim": "ENGELLİ HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Özgür Yurdusev",
+    "telefon": 5496123074,
+    "e-posta": "ozgur.yurdusev@ibb.gov.tr"
+  },
+  {
+    "id": "kadin-aile",
+    "birim": "KADIN VE AİLE HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Ebru Oğuz",
+    "telefon": 5395728371,
+    "e-posta": "ebru.oguz@ibb.gov.tr"
+  },
+  {
+    "id": "koruma-uygulama",
+    "birim": "KORUMA UYGULAMA VE DENETİM ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Hazal Özlem Eruş",
+    "telefon": 5338154359,
+    "e-posta": "ozlem.erus@ibb.gov.tr"
+  },
+  {
+    "id": "koruma-uygulama",
+    "birim": "KORUMA UYGULAMA VE DENETİM ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "İbrahim Özkadar",
+    "telefon": 5525357180,
+    "e-posta": "ibrahim.ozkadar@ibb.gov.tr"
+  },
+  {
+    "id": "koruma-uygulama",
+    "birim": "KORUMA UYGULAMA VE DENETİM ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Emine Şule Güvenç",
+    "telefon": 5359875948,
+    "e-posta": "sule.güvenc@ibb.gov.tr"
+  },
+  {
+    "id": "kultur-projeler",
+    "birim": "KÜLTÜR VARLIKLARI PROJELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "İrem Bülbül Nardereli",
+    "telefon": 5303401830,
+    "e-posta": "irem.nardereli@ibb.gov.tr"
+  },
+  {
+    "id": "kultur-projeler",
+    "birim": "KÜLTÜR VARLIKLARI PROJELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Ayşen Kaya",
+    "telefon": 5447413608,
+    "e-posta": "ayşen.kaya@ibb.gov.tr"
+  },
+  {
+    "id": "kultur-projeler",
+    "birim": "KÜLTÜR VARLIKLARI PROJELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Serap Şahin",
+    "telefon": 5356619574,
+    "e-posta": "serap.sahin@ibb.gov.tr"
+  },
+  {
+    "id": "kultur-projeler",
+    "birim": "KÜLTÜR VARLIKLARI PROJELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Ömer Faruk Sert",
+    "telefon": 5065814511,
+    "e-posta": "faruk.sert@ibb.gov.tr"
+  },
+  {
+    "id": "kulturel-etkinlikler",
+    "birim": "KÜLTÜREL ETKİNLİKLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Umut Kahraman",
+    "telefon": 5053961512,
+    "e-posta": "umut.kahraman@ibb.gov.tr"
+  },
+  {
+    "id": "kulturel-etkinlikler",
+    "birim": "KÜLTÜREL ETKİNLİKLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Hüseyin Sert",
+    "telefon": 5335619954,
+    "e-posta": "hüseyin.sert@ibb.gov.tr"
+  },
+  {
+    "id": "kültürel - etkinlikler",
+    "birim": "KÜLTÜREL ETKİNLİKLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Cüneyt Koçak",
+    "telefon": 5070145640,
+    "e-posta": "cuneyt.kocak@ibb.gov.tr"
+  },
+  {
+    "id": "kulturel-miras",
+    "birim": "KÜLTÜREL MİRAS KORUMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Hülya Çolak",
+    "telefon": 5363597803,
+    "e-posta": "hülya.colak@ibb.gov.tr"
+  },
+  {
+    "id": "kulturel-miras",
+    "birim": "KÜLTÜREL MİRAS KORUMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Esra Kudde",
+    "telefon": 5359358502,
+    "e-posta": "esra.kudde@ibb.gov.tr"
+  },
+  {
+    "id": "kulturel-miras",
+    "birim": "KÜLTÜREL MİRAS KORUMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Arzu Çetin Tatoğlu",
+    "telefon": 5383453871,
+    "e-posta": "arzu.cetin@ibb.gov.tr"
+  },
+  {
+    "id": "kulturel-miras",
+    "birim": "KÜLTÜREL MİRAS KORUMA ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "İsmail Sağdıç",
+    "telefon": 5064546004,
+    "e-posta": "ismail.sagdıc@ibb.gov.tr"
+  },
+  {
+    "id": "kutuphane-muze",
+    "birim": "KÜTÜPHANE VE MÜZELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Esengül Yıldız Altunbaş",
+    "telefon": 5054791698,
+    "e-posta": "esengül.altunbas@ibb.gov.tr"
+  },
+  {
+    "id": "kutuphane-muze",
+    "birim": "KÜTÜPHANE VE MÜZELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Kerim Altuğ",
+    "telefon": 5357276054,
+    "e-posta": "kerim.altug@ibb.gov.tr"
+  },
+  {
+    "id": "kutuphane-muze",
+    "birim": "KÜTÜPHANE VE MÜZELER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Osman Ocak",
+    "telefon": 5324975086,
+    "e-posta": "osman.ocak@ibb.gov.tr"
+  },
+  {
+    "id": "muhtarlik-destek",
+    "birim": "MUHTARLIKLAR DESTEK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Tuna Lüleci",
+    "telefon": 5358816599,
+    "e-posta": "tuna.luleci@ibb.gov.tr"
+  },
+  {
+    "id": "muhtarlik-destek",
+    "birim": "MUHTARLIKLAR DESTEK HİZMETLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Gaye Zorlu",
+    "telefon": 5545041970,
+    "e-posta": "gaye.zorlu@ibb.gov.tr"
+  },
+  {
+    "id": "orkestralar",
+    "birim": "ORKESTRALAR ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "İsmail Aygör",
+    "telefon": 5546897834,
+    "e-posta": "ismail.aygor@ibb.gov.tr"
+  },
+  {
+    "id": "sehir-tiyatro",
+    "birim": "ŞEHİR TİYATROLARI ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Berna Beyazkılınç Tezcan",
+    "telefon": 5068152184,
+    "e-posta": "berna.beyazkilinc@ibb.gov.tr"
+  },
+  {
+    "id": "sehir-tiyatro",
+    "birim": "ŞEHİR TİYATROLARI ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Nülüfer Batmaz",
+    "telefon": 5324987615,
+    "e-posta": "nilufer.durmaz@ibb.gov.tr"
+  },
+  {
+    "id": "sehit-gazi",
+    "birim": "ŞEHİT YAKINLARI VE GAZİLERLE İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Tuba Eroğlu",
+    "telefon": 5302393979,
+    "e-posta": "tuba.eroglu@ibb.gov.tr"
+  },
+  {
+    "id": "sosyal-hizmet",
+    "birim": "SOSYAL HİZMETLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Ülkü Sığa",
+    "telefon": 5415513551,
+    "e-posta": "ulku.avci@ibb.gov.tr"
+  },
+  {
+    "id": "sosyal-hizmet",
+    "birim": "SOSYAL HİZMETLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Bedri Kulak",
+    "telefon": 5305752191,
+    "e-posta": "bedri.kulak@ibb.gov.tr"
+  },
+  {
+    "id": "sosyal-hizmet",
+    "birim": "SOSYAL HİZMETLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Şilan Eraslan",
+    "telefon": 5331561823,
+    "e-posta": "silan.eraslan@ibb.gov.tr"
+  },
+  {
+    "id": "sosyal-hizmet",
+    "birim": "SOSYAL HİZMETLER ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Dilek Gönül",
+    "telefon": 5064392310,
+    "e-posta": "dilek.yazar@ibb.gov.tr"
+  },
+  {
+    "id": "turizm",
+    "birim": "TURİZM ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Fatmanur Yavuz",
+    "telefon": 5369421449,
+    "e-posta": "fatma.yavuz@ibb.gov.tr"
+  },
+  {
+    "id": "turizm",
+    "birim": "TURİZM ŞUBE MÜDÜRLÜĞÜ",
+    "pozisyon": "Müdür Yardımcısı",
+    "ad-soyad": "Oğuzcan Cantürk",
+    "telefon": 5073464241,
+    "e-posta": "oguzcan.canturk@ibb.gov.tr"
   }
 ]
