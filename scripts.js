@@ -611,7 +611,14 @@ function openManagerModal(unitId, unitTitle) {
                             <h6 class="mb-1">${deputy["ad-soyad"] || "İsim Bilgisi Yok"}</h6>
                             <small>${deputy.pozisyon}</small>
                         </div>
-                        <small class="text-muted">${deputy.telefon || "Telefon Bilgisi Yok"}</small>
+                        <small class="text-muted d-block">
+                            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                            ${deputy.telefon || "Telefon Bilgisi Yok"}
+                        </small>
+                        <small class="text-muted d-block">
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            ${deputy["e-posta"] || "E-posta Bilgisi Yok"}
+                        </small>
                     `;
                     deputyList.appendChild(listItem);
                 });
