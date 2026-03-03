@@ -69,6 +69,9 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         // Organizasyon ağacını oluştur
         buildOrganizationTree(organizationData);
+        // GSY3'ü varsayılan olarak aç
+        const gsy3Header = document.querySelector('.org-header[data-id="gsy3"]');
+        if (gsy3Header) toggleContent(gsy3Header);
         
         // Modal işlemleri
         setupModalHandlers();
