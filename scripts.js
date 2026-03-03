@@ -585,7 +585,7 @@ function openManagerModal(unitId, unitTitle) {
     console.log("Yardımcılar listesi:", deputyList);
     
     // Eğer Daire Başkanı ise, yardımcılar bölümünü gizle
-    if (manager.position === "Daire Başkanı" || manager.position === "Genel Sekreter Yardımcısı") {
+    if (manager.position.includes("Daire Başkanı") || manager.position.includes("Genel Sekreter")) {
         console.log("Daire Başkanı veya GSY, yardımcılar bölümü gizleniyor.");
         if (deputySection) {
             deputySection.style.display = 'none';
