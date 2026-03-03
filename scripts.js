@@ -530,8 +530,10 @@ function openManagerModal(unitId, unitTitle) {
     // Ana yönetici bilgilerini modalda göster
     document.getElementById('modalMudurAdi').textContent = manager.name;
     document.getElementById('modalPozisyon').textContent = manager.position;
-    document.getElementById('modalTelefon').textContent = manager.phone;
-    document.getElementById('modalEmail').textContent = manager.email;
+    document.getElementById('modalTelefon').innerHTML = 
+        `<a href="tel:+90${manager.phone}" style="color:inherit">${manager.phone}</a>`;
+    document.getElementById('modalEmail').innerHTML = 
+        `<a href="mailto:${manager.email}" style="color:inherit">${manager.email}</a>`;
     
     // Birim hiyerarşisi bilgisi ekle
     const unitLevel = getUnitLevel(unitId);
@@ -616,11 +618,11 @@ function openManagerModal(unitId, unitTitle) {
                         </div>
                         <small class="text-muted d-block">
                             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-                            ${deputy.telefon || "Telefon Bilgisi Yok"}
+                            <a href="tel:+90${deputy.telefon}" style="color:inherit">${deputy.telefon || "Telefon Bilgisi Yok"}</a>
                         </small>
                         <small class="text-muted d-block">
                             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-                            ${deputy["e-posta"] || "E-posta Bilgisi Yok"}
+                            <a href="mailto:${deputy["e-posta"]}" style="color:inherit">${deputy["e-posta"] || "E-posta Bilgisi Yok"}</a>
                         </small>
                     `;
                     deputyList.appendChild(listItem);
