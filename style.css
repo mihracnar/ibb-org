@@ -385,3 +385,14 @@ body {
         font-size: 0.7em;
     }
 }
+
+#copyDropdownBtn {
+    background-color: #003D84;
+    color: white;
+    border: none;
+}
+
+#copyDropdownBtn:hover {
+    background-color: #3F95EA;
+    color: white;
+}

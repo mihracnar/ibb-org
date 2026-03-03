@@ -639,6 +639,40 @@ function openManagerModal(unitId, unitTitle) {
     
     // Modal'ı aç
     const modal = new bootstrap.Modal(document.getElementById('mudurModal'));
+    // Kopyala dropdown'ını doldur
+    const menu = document.getElementById('copyDropdownMenu');
+    menu.innerHTML = '';
+
+    // Ana yöneticiyi ekle
+    const mainItem = document.createElement('li');
+    mainItem.innerHTML = `<a class="dropdown-item" href="#">
+        <i class="fas fa-user-tie me-2"></i>${manager.name} (${manager.position})
+    </a>`;
+    mainItem.querySelector('a').addEventListener('click', (e) => {
+        e.preventDefault();
+        copyPersonInfo(unitTitle, manager.name, manager.position, manager.phone, manager.email);
+    });
+    menu.appendChild(mainItem);
+
+    // Yardımcılar varsa ekle
+    const deputies = getDeputyManagersForUnit(unitId);
+    if (deputies.length > 0) {
+        const divider = document.createElement('li');
+        divider.innerHTML = '<hr class="dropdown-divider">';
+        menu.appendChild(divider);
+
+        deputies.forEach(deputy => {
+            const item = document.createElement('li');
+            item.innerHTML = `<a class="dropdown-item" href="#">
+                <i class="fas fa-user me-2"></i>${deputy["ad-soyad"]} (${deputy.pozisyon})
+            </a>`;
+            item.querySelector('a').addEventListener('click', (e) => {
+                e.preventDefault();
+                copyPersonInfo(unitTitle, deputy["ad-soyad"], deputy.pozisyon, deputy.telefon, deputy["e-posta"]);
+            });
+            menu.appendChild(item);
+        });
+    }
     modal.show();
 }
 
@@ -801,5 +835,14 @@ function resetSearch() {
     // Tüm başlıkların aria-expanded'ini false yap
     document.querySelectorAll('.org-header').forEach(header => {
         header.setAttribute('aria-expanded', 'false');
+    });
+}
+
+function copyPersonInfo(birim, ad, pozisyon, telefon, eposta) {
+    const text = `📋 ${birim}\n👤 ${ad} (${pozisyon})\n📞 ${telefon}\n✉️ ${eposta}`;
+    navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copyDropdownBtn');
+        btn.innerHTML = '<i class="fas fa-check"></i> Kopyalandı';
+        setTimeout(() => btn.innerHTML = '<i class="fas fa-copy"></i> Kopyala', 1500);
     });
 }
